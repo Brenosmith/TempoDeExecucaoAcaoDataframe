@@ -4,10 +4,10 @@
 Este projeto tem como objetivo medir o tempo de execução de ações em um DataFrame utilizando Python e bibliotecas como Pandas.
 
 ## Estrutura do Projeto
-- `src/`: Contém o código fonte do projeto.
-- `data/`: Contém os dados utilizados para os testes.
-- `results/`: Contém os resultados da análise em gráficos.
-- `README.md`: Arquivo com informações sobre o projeto.
+- `source/`: Contém o código fonte do projeto.
+- `source/data/`: Contém os dados utilizados para os testes.
+- `source/results/`: Contém os resultados da análise em gráficos.
+- `source/README.md`: Arquivo com informações sobre o projeto.
 
 ## Requisitos
 - Python 3.x
