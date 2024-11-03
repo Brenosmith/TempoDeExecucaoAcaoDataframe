@@ -6,7 +6,7 @@ Este projeto tem como objetivo medir o tempo de execução de ações em um Data
 ## Estrutura do Projeto
 - `src/`: Contém o código fonte do projeto.
 - `data/`: Contém os dados utilizados para os testes.
-- `notebooks/`: Contém notebooks Jupyter para análise e testes.
+- `results/`: Contém os resultados da análise em gráficos.
 - `README.md`: Arquivo com informações sobre o projeto.
 
 ## Requisitos
