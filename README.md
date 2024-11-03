@@ -1,5 +1,7 @@
 # Tempo De Execucao de Operação em Dataframe
 
+== Em desenvolviemnto ==
+
 ## Descrição
 Este projeto tem como objetivo medir o tempo de execução de ações em um DataFrame utilizando Python e bibliotecas como Pandas.
 
