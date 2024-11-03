@@ -59,6 +59,15 @@ Os gráficos gerados mostram claramente que as operações vetoriais são signif
 | 10000                | 549.758440         | 177.435740      | 71.509650                |
 | 100000               | 5497.584400        | 1774.357400     | 715.096500               |
 
+### Tabela de Redução de Tempo em porcentagem com referencia no Looping `for`
+
+| Quantidade de Linhas | Redução `df.apply` (%) | Redução Operações Vetoriais (%) |
+|----------------------|------------------------|---------------------------------|
+| 100                  | 67.72                  | 86.99                           |
+| 1000                 | 67.72                  | 87.00                           |
+| 10000                | 67.72                  | 87.00                           |
+| 100000               | 67.72                  | 87.00                           |
+
 ## Contribuição
 1. Faça um fork do projeto.
 2. Crie uma nova branch:
