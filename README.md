@@ -3,7 +3,7 @@
 == Em desenvolvimento ==
 
 ## Descrição
-Este projeto tem como objetivo medir o tempo de execução de ações em um DataFrame utilizando Python e bibliotecas como Pandas.
+Este projeto tem como objetivo medir o tempo de execução de ações em um DataFrame utilizando Python e bibliotecas como Pandas. Com isso determinar a melhor maneira de realizar operações em Dataframe.
 
 ## Estrutura do Projeto
 - `source/`: Contém o código fonte do projeto.
