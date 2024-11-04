@@ -41,7 +41,7 @@ Este projeto tem como objetivo medir o tempo de execução de ações em um Data
     ```
 
 ## Análise dos Resultados
-Os resultados obtidos mostram o tempo de execução de diferentes métodos para realizar uma operação simples em um Dataframe, neste caso identificar pagamentos com mais de cinco dias de atraso. Para realizar a operação basta identificar duas colunas de data, data do pagamento e data do vencimento, calcular a diferença entre as datas e, por fim, definir se é maior ou menos que cinco.
+Os resultados obtidos mostram o tempo de execução de diferentes métodos para realizar uma operação simples em um Dataframe, neste caso identificar pagamentos com mais de cinco dias de atraso. Para realizar a operação basta identificar as duas colunas de data, data do pagamento e data do vencimento, calcular a diferença entre as datas e, por fim, definir se é maior ou menor que cinco dias.
 
 Três métodos foram comparados:
 
