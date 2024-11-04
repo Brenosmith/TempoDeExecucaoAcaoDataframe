@@ -3,7 +3,7 @@
 == Em desenvolvimento ==
 
 ## Descrição
-Este projeto tem como objetivo medir o tempo de execução de ações em um DataFrame utilizando Python e bibliotecas como Pandas.
+Este projeto tem como objetivo medir o tempo de execução de ações em um DataFrame utilizando Python e bibliotecas como Pandas. Com isso determinar a melhor maneira de realizar operações em Dataframe.
 
 ## Estrutura do Projeto
 - `source/`: Contém o código fonte do projeto.
@@ -41,7 +41,9 @@ Este projeto tem como objetivo medir o tempo de execução de ações em um Data
     ```
 
 ## Análise dos Resultados
-Os resultados obtidos mostram o tempo de execução de diferentes métodos para identificar pagamentos com mais de cinco dias de atraso em um DataFrame. Três métodos foram comparados:
+Os resultados obtidos mostram o tempo de execução de diferentes métodos para realizar uma operação simples em um Dataframe, neste caso identificar pagamentos com mais de cinco dias de atraso. Para realizar a operação basta identificar as duas colunas de data, data do pagamento e data do vencimento, calcular a diferença entre as datas e, por fim, definir se é maior ou menor que cinco dias.
+
+Três métodos foram comparados:
 
 1. **Looping `for`**: Este método é o mais lento, especialmente para grandes quantidades de dados, devido à sua natureza iterativa.
 2. **`df.apply`**: Este método é mais rápido que o looping `for`, pois aplica uma função a cada linha do DataFrame de forma mais eficiente.
@@ -50,6 +52,7 @@ Os resultados obtidos mostram o tempo de execução de diferentes métodos para 
 Os gráficos gerados mostram claramente que as operações vetoriais são significativamente mais rápidas, especialmente à medida que o tamanho do DataFrame aumenta. Abaixo estão os gráficos que ilustram esses resultados:
 
 ![Gráfico de Tempo de Execução](source/results/grafico_tempo_por_metodo.png)
+
 ![Gráfico de Tempo de Execução (Escala Logarítmica)](source/results/grafico_log_tempo_por_metodo.png)
 
 ### Tabela de Resultados
