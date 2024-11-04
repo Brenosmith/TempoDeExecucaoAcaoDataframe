@@ -51,8 +51,10 @@ Três métodos foram comparados:
 
 Os gráficos gerados mostram claramente que as operações vetoriais são significativamente mais rápidas, especialmente à medida que o tamanho do DataFrame aumenta. Abaixo estão os gráficos que ilustram esses resultados:
 
+Escala linear:
 ![Gráfico de Tempo de Execução](source/results/grafico_tempo_por_metodo.png)
 
+Escala logarítmica:
 ![Gráfico de Tempo de Execução (Escala Logarítmica)](source/results/grafico_log_tempo_por_metodo.png)
 
 ### Tabela de Resultados
