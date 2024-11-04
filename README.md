@@ -63,10 +63,10 @@ Os gráficos gerados mostram claramente que as operações vetoriais são signif
 
 | Quantidade de Linhas | Redução `df.apply` (%) | Redução Operações Vetoriais (%) |
 |----------------------|------------------------|---------------------------------|
-| 100                  | 67.72                  | 86.99                           |
-| 1000                 | 67.72                  | 87.00                           |
-| 10000                | 67.72                  | 87.00                           |
-| 100000               | 67.72                  | 87.00                           |
+| 100                  | 64.79                  | 75.59                           |
+| 1000                 | 71.22                  | 92.74                           |
+| 10000                | 76.32                  | 99.20                           |
+| 100000               | 75.34                  | 99.66                           |
 
 ## Contribuição
 1. Faça um fork do projeto.
