@@ -1,7 +1,5 @@
 # Tempo De Execucao de Operação em Dataframe
 
-== Em desenvolvimento ==
-
 ## Descrição
 Este projeto tem como objetivo medir o tempo de execução de ações em um DataFrame utilizando Python e bibliotecas como Pandas. Com isso determinar a melhor maneira de realizar operações em Dataframe.
 
@@ -63,10 +61,10 @@ Escala logarítmica:
 
 | Quantidade de Linhas | Looping `for` (ms) | `df.apply` (ms) | Operações Vetoriais (ms) |
 |----------------------|--------------------|-----------------|--------------------------|
-| 100                  | 5.497584           | 1.774357        | 0.715097                 |
-| 1000                 | 54.975844          | 17.743574       | 7.150965                 |
-| 10000                | 549.758440         | 177.435740      | 71.509650                |
-| 100000               | 5497.584400        | 1774.357400     | 715.096500               |
+| 100                  | 6.038290           | 2.126148        | 1.473977                 |
+| 1000                 | 53.365732          | 15.359989       | 3.874016                 |
+| 10000                | 707.806653         | 167.608635      | 5.685741                 |
+| 100000               | 6222.413392        | 1534.682405     | 21.440048                |
 
 ### Tabela de Redução de Tempo em porcentagem com referencia no Looping `for`
 
@@ -76,6 +74,13 @@ Escala logarítmica:
 | 1000                 | 71.22                  | 92.74                           |
 | 10000                | 76.32                  | 99.20                           |
 | 100000               | 75.34                  | 99.66                           |
+
+### Conclusão
+
+Os resultados da análise demonstram que as operações vetoriais são a abordagem mais eficiente para manipulação de dados em DataFrames, especialmente quando lidamos com grandes volumes de dados. Enquanto o método de looping `for` é significativamente mais lento, o uso de `df.apply` oferece uma melhoria considerável em termos de desempenho. No entanto, as operações vetoriais se destacam como a melhor prática, proporcionando uma redução de tempo de execução de até 99.66% em comparação com o looping `for`.
+
+Portanto, para otimizar o desempenho de operações em DataFrames, recomenda-se fortemente o uso de operações vetoriais sempre que possível. Esta abordagem não só melhora a eficiência, mas também torna o código mais conciso e legível.
+
 
 ## Contribuição
 1. Faça um fork do projeto.
